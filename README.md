@@ -1,4 +1,4 @@
-# Hugo Hero Theme
+# Adaptation of the Hugo Hero Theme to Nuba-TEk Web Site.
 
 Hero is a multi-page business theme with fullscreen hero images and fullwidth sections.
 
