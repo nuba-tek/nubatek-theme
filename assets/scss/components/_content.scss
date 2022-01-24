@@ -1,5 +1,13 @@
 .content {
-  ul,
+  ul, {
+    list-style-type: square;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    li {
+      margin-bottom: 5px;
+      margin-left: 20px;
+    }
+  }
   ol {
     margin-top: 10px;
     margin-bottom: 20px;
