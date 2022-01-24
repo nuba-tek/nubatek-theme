@@ -27,21 +27,78 @@
   <div class="container pt-17 pb-17">
     <div class="row">
       <div class="col-12 col-md-6 offset-md-6">
-        <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+        <h2 class="text-primary">{{ .Title }}</h2>
         <p>{{ .Content }}</p>
+        {{ if .Params.button }}
         <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+       {{ end }}
       </div>
     </div>
   </div>
 </div>
 {{ end }}
 
-{{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
+
+
+{{ range first 1 (after 1 $reusablePages) }}
+<!--<div class="strip bg-cover bg-position-center bg-overlay pt-15 pb-15" style="background-image: url(' {{ .Params.background | relURL }} ');">-->
+<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
+  <!--<div class="container">-->
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+    <div class="row">
+      <div class="col-12 col-md-6 text-white">
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+          {{ if .Params.button }}
+          <a class="button button-primary" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button}}</a>
+          {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ range first 1 (after 2 $reusablePages) }}
+<div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-17 pb-17">
+    <div class="row">
+      <div class="col-12 col-md-6 offset-md-6">
+        <h2 class="text-primary text-capitalize">{{ .Title }}</h2>
+        <p>{{ .Content }}</p>
+        {{ if .Params.button }}
+        <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+       {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+{{ range first 1 (after 3 $reusablePages) }}
+<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+    <div class="row">
+      <div class="col-12 col-md-6 text-white">
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+          {{ if .Params.button }}
+          <a class="button button-primary" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button}}</a>
+          {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+
+{{ $services := where (where .Site.RegularPages "Type" "postes") ".Params.featured" true }}
 {{if gt (len $services) 0}}
 <div class="container pt-8 pb-8 pb-md-14 pt-md-14">
   <div class="row justify-content-start">
     <div class="col-12">
-      <h2 class="text-center mb-3">Our Services</h2>
+      <h2 class="text-center mb-3">Nous recrutons</h2>
     </div>
     {{ range first 6 (sort $services ".Params.weight") }}
     <div class="col-12 col-md-4 mb-1">
@@ -49,25 +106,27 @@
     </div>
     {{ end }}
     <div class="col-12 text-center">
-      <a class="button button-primary" href="{{ .Site.BaseURL }}services">View All Services</a>
+      <a class="button button-primary" href="{{ .Site.BaseURL }}postes">Voir tous les postes</a>
     </div>
   </div>
 </div>
 {{end}}
 
-{{ range first 1 (after 1 $reusablePages) }}
-<div id="home" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
+
+
+<!--
+<div id="home" class="strip bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
   <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-8 text-center text-white">
-        <h2>{{ .Title }}</h2>
-        {{ .Content }}
-        <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+      <div class="col-12 col-md-8 text-center">
+                
+        <a class="button" href="/contact">Nous contacter</a>
       </div>
     </div>
   </div>
 </div>
-{{ end }}
+-->
+
 
 {{ end }}
 
