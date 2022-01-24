@@ -1,13 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>logo-mobile</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo-mobile">
-            <rect id="Rectangle-6" stroke="#1C3ED3" stroke-width="4" fill-rule="nonzero" x="2" y="2" width="50" height="50"></rect>
-            <polygon id="H" fill="#1C3ED3" points="38.954 42 33.805 42 33.805 29.992 20.923 29.992 20.923 42 15.774 42 15.774 14.526 20.923 14.526 20.923 26.344 33.805 26.344 33.805 14.526 38.954 14.526"></polygon>
-        </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="54px"
+   height="54px"
+   viewBox="0 0 54 54"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="logo-mobile.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   inkscape:export-filename="C:\Users\mahdi\favicon.png"
+   inkscape:export-xdpi="128"
+   inkscape:export-ydpi="128">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo-mobile</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1234"
+     inkscape:window-height="852"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="4.1203704"
+     inkscape:cx="41.690579"
+     inkscape:cy="40.027065"
+     inkscape:window-x="2506"
+     inkscape:window-y="101"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12"
+     inkscape:document-rotation="0" />
+  <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">logo-mobile</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1031"
+       id="linearGradient940"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.64170267,0,0,0.64170267,-14.878548,-218.90226)"
+       x1="119.74855"
+       y1="223.35281"
+       x2="29.860119"
+       y2="175.75893" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1031">
+      <stop
+         style="stop-color:#f6764a;stop-opacity:1;"
+         offset="0"
+         id="stop1027" />
+      <stop
+         style="stop-color:#f6764a;stop-opacity:0;"
+         offset="1"
+         id="stop1029" />
+    </linearGradient>
+  </defs>
+  <rect
+     id="Rectangle-6"
+     stroke="#1c3ed3"
+     stroke-width="4"
+     fill-rule="nonzero"
+     x="2"
+     y="2"
+     width="50"
+     height="50"
+     style="fill:none" />
+  <g
+     id="g262"
+     transform="matrix(0.69171367,0,0,0.74812331,1.1985652,92.468599)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#f69a00;stroke-width:0.115507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.069333,-71.092344 c 32.516976,0.06312 23.142501,0.14589 46.779818,-0.09411 3.923754,-0.03968 7.34177,-4.363427 7.435767,-8.766312 0.08466,-3.960303 -0.588133,-6.138218 -2.989493,-8.358841 -2.401323,-2.220662 -6.137122,-2.695219 -6.137122,-2.695219 -0.04233,-1.935874 -1.423294,-4.542539 -3.939061,-6.762331 -2.771339,-2.297803 -8.648277,-2.255473 -8.648277,-2.255473 0,0 -3.460649,-4.21243 -7.524171,-6.00998 -4.063521,-1.79754 -8.663508,-1.778 -11.8721,-0.88618 -3.208592,0.89178 -7.491478,4.09954 -9.510917,7.815003 -2.01944,3.715465 -1.775471,7.938596 -1.775471,7.938596 0,0 -4.0745577,0.331464 -6.6203717,2.547552 -2.545852,2.216051 -3.562923,6.316763 -3.558841,9.072908 0.0076,5.512327 4.396989,8.446488 8.3602397,8.454198 z"
+       id="path947-8-4-5-7"
+       sodipodi:nodetypes="sssscccsssczss"
+       inkscape:export-xdpi="200.71951"
+       inkscape:export-ydpi="200.71951" />
+    <path
+       style="fill:url(#linearGradient940);fill-opacity:1;stroke:#f69a00;stroke-width:0.115507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.069333,-71.092192 c 32.516976,0.06312 23.142501,0.14589 46.779818,-0.09411 3.923754,-0.03968 7.34177,-4.363427 7.435767,-8.766312 0.08466,-3.960303 -0.588133,-6.138218 -2.989493,-8.358841 -2.401323,-2.220662 -6.137122,-2.695219 -6.137122,-2.695219 -0.04233,-1.935874 -1.423294,-4.542539 -3.939061,-6.762331 -2.771339,-2.297805 -8.648277,-2.255475 -8.648277,-2.255475 0,0 -3.460649,-4.21243 -7.524171,-6.00998 -4.063521,-1.79754 -8.663508,-1.778 -11.8721,-0.88618 -3.208592,0.89178 -7.491478,4.09954 -9.510917,7.815005 -2.019477,3.715465 -1.775471,7.938596 -1.775471,7.938596 0,0 -4.0745577,0.331464 -6.6204097,2.547552 -2.545814,2.216051 -3.562885,6.316763 -3.558803,9.072908 0.0076,5.512327 4.396989,8.446488 8.3602397,8.454198 z"
+       id="path947-6-1-3"
+       sodipodi:nodetypes="sssscccsssczss"
+       inkscape:export-xdpi="200.71951"
+       inkscape:export-ydpi="200.71951" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.169784px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 29.265239,-67.188394 55.460464,-93.38362 v 7.761525 l -19.161336,18.433701 z"
+       id="path921-9-8-6"
+       inkscape:export-xdpi="200.71951"
+       inkscape:export-ydpi="200.71951" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.169784px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 29.265239,-67.188242 26.195225,-26.195226 c 0,0 1.409537,-1.894034 5.553071,-1.518803 1.491515,0.134929 2.987641,0.81634 4.116208,1.800832 0.908787,0.792793 1.091036,2.180749 1.886589,3.087155 0.750878,0.855572 1.641827,1.631396 2.658368,2.143824 0.60669,0.305764 1.972309,0.514545 1.972309,0.514545 l -5.316737,5.23098 c -0.617537,-2.916019 -1.154268,-4.475641 -3.387251,-5.488252 -1.188661,-0.416315 -2.192806,-0.690029 -4.223395,-0.107339 -1.850268,0.531099 -3.259162,2.098431 -3.259162,2.098431 l -19.161336,18.433701 z"
+       id="path979-3-6-4"
+       sodipodi:nodetypes="ccsssscccsccc"
+       inkscape:export-xdpi="200.71951"
+       inkscape:export-ydpi="200.71951" />
+  </g>
 </svg>
